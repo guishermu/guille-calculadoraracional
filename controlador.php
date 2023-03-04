@@ -1,5 +1,5 @@
 <?php
-require_once "racional.php";
+require_once "Racional.php";
 
 $operador =$_POST['operador'];
 $num1=new Racional($_POST['op1']);
