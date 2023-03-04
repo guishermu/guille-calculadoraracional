@@ -2,8 +2,8 @@
 require_once "racional.php";
 
 $operador =$_POST['operador'];
-$num1=new racional($_POST['op1']);
-$num2=new racional($_POST['op2']);
+$num1=new Racional($_POST['op1']);
+$num2=new Racional($_POST['op2']);
 
 switch($operador) {
     case "sumar":
