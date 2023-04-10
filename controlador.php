@@ -1,9 +1,10 @@
 <?php
 require_once "Racional.php";
 
-$operador =$_POST['operador'];
-$num1=new Racional($_POST['op1']);
-$num2=new Racional($_POST['op2']);
+$operador = $_POST['operador'];
+$num1 = new Racional($_POST['op1']);
+$num2 = new Racional($_POST['op2']);
+$total="";
 
 switch($operador) {
     case "sumar":
